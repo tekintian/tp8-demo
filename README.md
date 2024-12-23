@@ -23,7 +23,23 @@ ThinkPHP 8.0 Demo
 
 ## 启动运行
 
-启动服务
+1. 克隆项目
+~~~
+git clone https://github.com/tekintian/tp8-demo.git
+~~~
+
+2. 安装依赖
+~~~
+cd tp8-demo
+composer install
+~~~
+
+3. 配置数据库
+将.example.env文件复制为.env文件，配置数据库信息和sentry信息
+
+4. 启动服务
+在vscode中运行 RUN AND DEBUG (Launch built-in server and debug)即可 
+或者 命令行运行
 ~~~
 php think run
 ~~~
